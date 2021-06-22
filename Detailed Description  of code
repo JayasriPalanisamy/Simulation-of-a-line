@@ -1,0 +1,22 @@
+
+- This is a Pyhton program that works on the concept of Projection Of Lines in a Cartesian Plane.
+- First, the user enters the coordinates of the line in (x, y, z) form in a tkinter window and its corresponding projection 
+  is displayed in the cartesian plane using mplot3D library from the matplotlib package in a separate tkinter window.
+- Along with the graph, the line’s corresponding true length, front view length, top view length, angles of inclination with HP and VP , 
+  angle of inclination of Front View with HP and angle of inclination of Top View with VP is also displayed.
+
+- This is a Pyhton program that works on the concept of Projection Of Lines in a Cartesian Plane.
+- First, the user enters the coordinates of the line in (x, y, z) form in a tkinter window and its corresponding projection is displayed in the cartesian plane using mplot3D library from the matplotlib package in a separate tkinter window.
+- Along with the graph, the line’s corresponding true length, front view length, top view length, angles of inclination with HP and VP , angle of inclination of Front View with HP and angle of inclination of Top View with VP is also displayed.
+In the code:
+here,  A = (x1,y1,z1)
+       B = (x2,y2,z2)
+- AB = True length of the line(TL in the picture)
+- ab = top view length of the line( PL in the pic.)
+- a’b’ = front view length of the line( EL in the pic.)
+- ‘l’ also denotes the z-axis
+- ‘h’ also denotes the y - axis
+- and, ‘b’ also denotes the x-axis
+- I have made my logic by constructing a imaginary box using l, b, h.
+-  alpha is the angle that a’b’ makes with z-axis
+- beta is the angle that ab makes with z- axis
